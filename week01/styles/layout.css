@@ -1,0 +1,73 @@
+ :root {
+     --background-color: #310202;
+     --border: 5px solid #310202
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body{
+    grid-template:auto 1fr auto/ auto auto
+}
+
+ header p {
+    display: block;
+    grid-column: 1/3 ;
+ }
+ nav {
+     background-color: var(--background-color);
+     padding: 5px;
+ }
+
+ nav a {
+     color: white;
+     display: block;
+     padding: 5px;
+
+ }
+
+ nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+ }
+
+ main{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 2px;
+    background-color: #310202;
+    height: 100px;
+    width: 100%;
+    grid-column: 1/2;
+    
+
+ }
+aside {
+    padding: 10px;
+    border: 2px solid black;
+    margin: 2px;
+    background-color: bisque;
+    height: 100px;
+    width: 100%;
+    grid-column: 2/3;
+}
+
+footer{
+    background-color: brown;
+    padding: 20px;
+    grid-column: 1/3
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
