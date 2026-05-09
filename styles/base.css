@@ -7,6 +7,19 @@ header span{
     text-align: center;
     padding: 10px;
 }
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    background-color: white;
+    color: rgb(72, 15, 15);
+    border-radius: 5px;
+}
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -20,7 +33,7 @@ nav ul {
 
 
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', sans-serif;
     background-color: #f4f4f4;
     margin: 0;
 }
