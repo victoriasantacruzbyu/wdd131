@@ -1,0 +1,128 @@
+header{
+    background-color: rgb(72, 15, 15);
+}
+
+header span{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    margin: 0;
+    padding: 5px;
+}
+
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+main h1 {
+  grid-column: 1/3;
+  text-align: center;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+    width: 800px;
+    margin: 0 auto;
+    
+}
+
+
+    
+
+
+.card{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 20px;
+    
+}
+
+.card h2{
+    background-color: rgb(72, 15, 15);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+.top{
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.top p{
+    flex: 1;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.profile{
+    width: 180px;
+}
+
+.card h3{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    width: 60%;
+    margin: 0 auto 1.5rem;
+    padding-bottom: .5rem;
+}
+
+.bottom{
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 0 2rem 2rem;
+}
+
+.bottom p{
+    margin: 0;
+    line-height: 1.6;
+}
+
+.flag{
+    width: 150px;
+}
+
+figure{
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+    font-size: .9rem;
+}
+
+ul{
+    padding: 2rem;
+    line-height: 2;
+    margin: 10px;
+}
+
+footer{
+    background-color: rgb(72, 15, 15);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    display: block;
+}
+
+footer p{
+    margin: .3rem;
+}
