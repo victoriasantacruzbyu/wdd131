@@ -1,5 +1,6 @@
 header{
     background-color: rgb(93, 27, 27);
+    color: white;
 }
 
 header span{
@@ -16,7 +17,6 @@ nav a{
 }
 
 nav a:hover{
-    background-color: white;
     color: rgb(93, 27, 27);
     border-radius: 5px;
 }
